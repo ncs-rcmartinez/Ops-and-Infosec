@@ -1,0 +1,17 @@
+On Error Resume Next
+Set WshNetwork = CreateObject("WScript.Network")
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\4050b"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\AccountingSharp"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\AD - SHARP Fax"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\ADPrinter - Black"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\ADPrinter - Color"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Alcove - Black"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Alcove - Color"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Alcove - Sharp Fax"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Buckhead-HP4050A"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\CertificatePrinter"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\DellColorLaser"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Downtown - Black"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Downtown - HP Color CP4005-PCL6"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Midtown - Black"
+WshNetwork.AddWindowsPrinterConnection "\\10.160.35.22\Midtown - Color"
